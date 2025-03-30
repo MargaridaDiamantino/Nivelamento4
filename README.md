@@ -28,3 +28,19 @@ pip install -r backend/requirements.txt
 cd frontend
  Instale as dependências:
 npm install
+
+ ## Funcionalidades
+📄 Conversão de PDF para CSV
+✅ Extrai tabelas do PDF "Rol de Procedimentos e Eventos em Saúde"
+✅ Salva os dados em CSV estruturado
+✅ Substitui as siglas OD e AMB pelas descrições completas
+
+🔎 API de Busca
+✅ Endpoint GET /api/operadoras?search={termo}
+✅ Busca por nome e outras informações no CSV
+✅ Suporte a filtros personalizados
+
+🖥️ Frontend Vue.js
+✅ Tela para buscar operadoras de saúde
+✅ Lista de resultados formatados
+✅ Interface simples e responsiva
